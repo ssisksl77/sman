@@ -1,36 +1,13 @@
 # sman
 
-FIXME: description
+단순히 엑셀에 있는 이메일 리스트르 오른쪽에 넣고 왼쪽 버튼을 누르면 대량메일을 보낼 수 있도록
+CSV(comma-separated values file)로 변환하는 것.
+도메인이 문제가 있는지 아닌지는 확인하지 않으며 그런것은 당신의 책임!!!
+아주 단순하며 또 이 단순한 것이 얼마나 단순하게 짜여지는지 확인하고 싶음.
+클로저가 정말 괜찮은 언어인지 계속 공부해도 되는 언어인지 알기 위해 책만 읽다가 드디어 단순한 코드라도
+짜보기로 했음.
 
-## Installation
+clojure를 아는 멋진 사람들을 만났으면 하는 소망이 담긴 대량 이메일 날리기 프로젝트 첫번째.
 
-Download from http://example.com/FIXME.
 
-## Usage
-
-FIXME: explanation
-
-    $ java -jar sman-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Convert into csv file for email
