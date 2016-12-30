@@ -4,15 +4,15 @@
 
 (ss/native!)
 
-(defn display
-  ([content] (ss/config! f :content content) content)
-  ([where content] (ss/config! where :text content)))
-
 (def f (ss/frame
          :title "MAGIC STRING"
          :minimum-size [500 :by 300]
          ;:on-close :exit
          :icon (clojure.java.io/resource "yhnam.png")))
+(defn display
+  ([content] (ss/config! f :content content) content)
+  ([where content] (ss/config! where :text content)))
+
 
 (def c-pan-textarea (ss/text :multi-line? true :text ""))
 
